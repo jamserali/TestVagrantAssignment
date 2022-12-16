@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Vagrant Test Suite">
+    <test name="Test Vagrant Tests">
+        <classes>
+            <class name="com.testvagrant.RCBTeamTests"/>
+        </classes>
+    </test>
+</suite>
