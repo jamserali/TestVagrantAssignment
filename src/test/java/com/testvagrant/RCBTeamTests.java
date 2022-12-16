@@ -15,7 +15,6 @@ public class RCBTeamTests {
 
     @BeforeClass
     public void prepareTestData() throws JsonSyntaxException, JsonIOException, FileNotFoundException{
-        //JsonUtils.readJsonFile("./RCBTeam.json");
         players = new Gson().fromJson(JsonUtils.readJsonFile("./RCBTeam.json").get("player"),Player[].class);
     }
 
